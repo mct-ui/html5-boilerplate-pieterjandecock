@@ -101,9 +101,14 @@ blockquote {
     font-family: "Times New Roman", serif;
 }
 
+ul,
+ol {
+    padding-left: 24px;
+}
+
 li ul,
 li ol{
-
+    margin-bottom: 0;
 }
 
 blockquote * {
@@ -119,7 +124,10 @@ figcaption {
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
 }
 
 a {
